@@ -3,6 +3,7 @@
 apt install -y automake libtool m4
 
 pushd ../emsdk
+git reset --hard
 git pull
 ./emsdk install latest
 ./emsdk activate latest
